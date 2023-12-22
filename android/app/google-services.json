@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143691649695",
+    "project_id": "smartcheckout-d61b9",
+    "storage_bucket": "smartcheckout-d61b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143691649695:android:fc7dab4a6fb01b4f8c88aa",
+        "android_client_info": {
+          "package_name": "com.qianyi.fyp_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPZOqrHfettNz6ZBbBVijGH6eZjq7xc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
