@@ -55,7 +55,7 @@ class _SelectCustomerPageState extends State<SelectCustomerPage> {
               },
               decoration: InputDecoration(
                 hintText: 'Search Customers...',
-                prefixIcon: Icon(Icons.search),
+                prefixIcon: Icon(Icons.person_search_rounded),
                 border: OutlineInputBorder(),
               ),
             ),

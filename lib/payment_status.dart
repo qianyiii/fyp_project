@@ -29,7 +29,7 @@ class OrderSuccessPage extends StatelessWidget {
             ),
             SizedBox(height: 16.0),
             Text(
-              'Order Successful!',
+              'Successful!',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 16.0),
@@ -50,7 +50,7 @@ class OrderSuccessPage extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {
                     // Navigate back to the home page
-                    Navigator.popUntil(context, ModalRoute.withName('home'));
+                    Navigator.pushReplacementNamed(context, 'home');
                   },
                   child: Text('Back to Home'),
                 ),

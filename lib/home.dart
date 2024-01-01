@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
       return Row(
         children: [
           Expanded(
-            child: Text('Admin Profile Information'),
+            child: Text('About Us'),
           ),
           IconButton(
             icon: Icon(Icons.logout),
@@ -130,7 +130,7 @@ class _HomeState extends State<Home> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.person),
+                            Icon(Icons.account_circle_rounded),
                             // Display the customer's name if selected
                             Text(_selectedCustomer != null
                                 ? ' ${_selectedCustomer!['firstName']} ${_selectedCustomer!['lastName']}'
@@ -246,7 +246,7 @@ class _HomeState extends State<Home> {
                               value: 'update',
                               child: ListTile(
                                 leading: Icon(Icons.edit),
-                                title: Text('Update'),
+                                title: Text('Edit'),
                               ),
                             ),
                             const PopupMenuItem<String>(
